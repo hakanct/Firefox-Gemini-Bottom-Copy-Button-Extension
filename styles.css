@@ -1,0 +1,31 @@
+/* styles.css */
+
+.cloned-code-block-footer {
+    background-color: var(--gem-sys-color--surface-container);
+    border-radius: var(--gem-sys-spacing--xs) var(--gem-sys-spacing--xs) var(--gem-sys-spacing--l) var(--gem-sys-spacing--l)!important;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -moz-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    padding: var(--gem-sys-spacing--s) var(--gem-sys-spacing--s)
+        var(--gem-sys-spacing--s) var(--gem-sys-spacing--l);
+    margin-top: 2px;
+    margin-bottom: 0px!important;
+    height: 32px;
+}
+
+.code-block .formatted-code-block-internal-container {
+    background-color: var(--gem-sys-color--surface-container);
+    border-radius: var(--gem-sys-spacing--xs) var(--gem-sys-spacing--xs) var(--gem-sys-spacing--xs) var(--gem-sys-spacing--xs)!important;
+}
+
+/* Ensure the buttons container in the footer looks right */
+.cloned-code-block-footer .buttons {
+  /* Add specific styles if needed */
+}
+
+/* Ensure the copy button in the footer looks right */
+.cloned-code-block-footer .copy-button {
+  /* Add specific styles if needed */
+}
